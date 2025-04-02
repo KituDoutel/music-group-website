@@ -1,0 +1,9 @@
+{
+    "scripts": {
+      "start": "node server.js",
+      "cron": "node cron-jobs.js",
+      "monitor": "node health-monitor.js",
+      "migrate": "knex migrate:latest",
+      "seed": "knex seed:run"
+    }
+  }
